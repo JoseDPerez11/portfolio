@@ -1,11 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+
+import '@mantine/core/styles.css';
 import './App.css';
+import HomePage from './components/HomePage';
+import { MantineProvider } from '@mantine/core';
 
 function App() {
   return (
     
-    <h1>hello word</h1> 
+    <MantineProvider>
+      <HomePage />
+    </MantineProvider>
 
   );
 }
