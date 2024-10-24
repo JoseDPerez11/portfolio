@@ -8,8 +8,8 @@ const ProjectCard=(props: any) => {
             <Card.Section className="p-3" >
                 <Image
                     className="!rounded-xl !shadow-[0_0_5px_0_#64FFDA]"
-                  //src={props.image}
-                  //alt={props.image}
+                  src={props.image}
+                  alt={props.image}
                  />
             </Card.Section>
 
